@@ -17,5 +17,6 @@ else{
     session_start();
     $_SESSION["mainname"]=$name;
     echo "Login Successful";
+    header("location: secondpage.php ");
 }
 

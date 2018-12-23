@@ -7,7 +7,27 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="icons.css" rel="stylesheet" />
 
-<script type="text/javascript" src="/mainfuncs.js"></script>
+<script type="text/javascript">
+
+function logidcall () {
+
+	document.getElementById("confirmid").style.display="none" ;
+
+document["search-theme-form"].action="checklogin.php"
+
+}
+
+
+
+function signidcall(){
+
+	document.getElementById("confirmid").style.display="block";
+document["search-theme-form"].action="checksignup.php"
+
+
+}
+
+</script>
 
 
 
@@ -18,7 +38,7 @@
 
 
 <div class="container-fluid">
-<div class="row" style="min-height: 29mm;background-color: #01579B;">
+<div class="row" style="min-height: 29mm;background-color: #01579B">
 <div class="col-lg-2" style="min-height: 30mm">
 <img src="db2.jpeg" style="height: 24mm;border-radius: 17mm;border-style: groove;margin-top: 3mm;border:black" class="img-rounded" alt="">
 </div>
