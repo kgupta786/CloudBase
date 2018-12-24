@@ -84,7 +84,7 @@ background-color: white;"></a><br>
 
 <?php
 
-include "frag1.php";
+include "frag2.php";
 
 ?>
 

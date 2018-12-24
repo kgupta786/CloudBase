@@ -7,3 +7,12 @@
   text-decoration: none;
   border-radius: 50%;
 }
+
+
+.ScrollStyle
+{
+
+ max-height: 259mm;
+ overflow-y: scroll;
+
+}
